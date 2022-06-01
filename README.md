@@ -8,7 +8,12 @@
 ## `1. Sentiment Analysis`
 
 - An example intuition to bag of words model in NLP using Kirill Eremenko Restaurant reviews intuition dataset.
-- You could improve more on the model still get the intuition behind it.
+- You could improve more on the model could be improved further to still be able to get the intuition behind it.
   - [**sentimentalanalysisNLP.py**](https://github.com/kuta-ndze/NLP-bag-of-words/blob/main/SentimentanalysisNLP.py)
 
 ## `1. Topic Modelling`
+
+**Objective**
+
+- In this project, we are trying to group cutomers reviews based on recurring
+  patterns. The ML technique used in this project is the kmeans clustering.
