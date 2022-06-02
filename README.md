@@ -63,7 +63,7 @@
 
 - The optimal cluster on my model is 6 clusters/ 6 centroids, this can be improve with experience[clustered_tweets.csv](https://github.com/kuta-ndze/Natural_Language_Processing/blob/main/clustered_tweets.csv)
 - Word cloud analysis has help to visualize prominent patterns in deciding the cluster number
-- The cluster range between 2-4
+- Best cluster/Centroid ranges are between 2-8
 
 **Recommendations**
 
