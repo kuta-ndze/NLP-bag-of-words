@@ -13,9 +13,14 @@
 - You could improve more on the model could be improved further to still be able to get the intuition behind it.
   - [**sentimentalanalysisNLP.py**](https://github.com/kuta-ndze/NLP-bag-of-words/blob/main/SentimentanalysisNLP.py)
 
-## `1. Topic Modelling`
+## `2. Topic Modelling`
 
 **Objective**
 
-- In this project, we are trying to group cutomers reviews based on recurring
-  patterns. The ML technique used in this project is the kmeans clustering.
+- In this project, we want to group customers reviews on twitter data based on recurring
+  patterns. We should be able to get a sense of the specific topic in each cluster, what the customers are complaining about
+  based on specific patterns. The twitter corpus contains a lot of noise and we will try to minimize this and create sense out of the data.
+
+**Methodology**
+
+- The ML technique used in this project is the kmeans clustering which is an unsupervised model to be able to extract some patterns.
