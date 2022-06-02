@@ -36,4 +36,7 @@
    - Collapse all spaces and remove words with lengths less than 2
 2. `Tokenizing data and Identify Special Instances of Tweets`
    - Create a list for each row of the clean text by making each word a standalone this also takes care of any full stops at end of text removes.
+   - Drop empty index in clean data
+   - Drop duplicates/empty tweets in data set and reset index
+3. `Vectorizer`
    -
