@@ -30,3 +30,10 @@
 - The ML technique used in this project is the kmeans clustering which is an unsupervised model to be able to extract some patterns.
 
 1. `Data Cleaning with Pattern Removal`
+   - Removing mentions with @
+   - Replacing non-alphabets with empty space
+   - Convert Capital cases to lower cases for computer comprehension
+   - Collapse all spaces and remove words with lengths less than 2
+2. `Tokenizing data and Identify Special Instances of Tweets`
+   - Create a list for each row of the clean text by making each word a standalone this also takes care of any full stops at end of text removes.
+   -
