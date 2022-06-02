@@ -17,10 +17,16 @@
 
 **Objective**
 
-- In this project, we want to group customers reviews on twitter data based on recurring
+- In this project, we want to group customers reviews on twitter corpus based on recurring
   patterns. We should be able to get a sense of the specific topic in each cluster, what the customers are complaining about
   based on specific patterns. The twitter corpus contains a lot of noise and we will try to minimize this and create sense out of the data.
+
+**Data**
+
+- The data used is Twitter data with lots of Noise on reviews. 21047 tweets with 4 attributes username, date , tweet and mention i.e a data about vodafone which is a telecom company.
 
 **Methodology**
 
 - The ML technique used in this project is the kmeans clustering which is an unsupervised model to be able to extract some patterns.
+
+1. `Data Cleaning with Pattern Removal`
