@@ -35,8 +35,21 @@
    - Convert Capital cases to lower cases for computer comprehension
    - Collapse all spaces and remove words with lengths less than 2
 2. `Tokenizing data and Identify Special Instances of Tweets`
+   This separates the words and remove punctuations
    - Create a list for each row of the clean text by making each word a standalone this also takes care of any full stops at end of text removes.
    - Drop empty index in clean data
    - Drop duplicates/empty tweets in data set and reset index
 3. `Vectorizer`
-   -
+   This is similar to tokenization only that it takes all the word vocabulary and convert all the vocabulary in the documents in to a matrix format bag of words. For instance
+
+   ```Python
+     [Hi my name is celdrick]
+     [Hi my friend is Joyce]
+
+     #vectorizing the entire vocabulary or words in a more structured format to a fix number of input length
+     [Hi my name is celdrick friend Joyce]
+
+     #Count vectorizer converts to matrix format: count vectorizer preferred to Tfidf because we have small data set.
+     [1, 1, 1, 1, 1, 0, 0]
+     [1, 1, 0, 1, 0, 1, 1]
+   ```
