@@ -69,3 +69,4 @@
 
 - Since customer reviews are subjective, Try more bigger data set with more reviews and we could keep
   monitoring the system performance and varying clusters as it comes with experience figuring the clusters and depending on domain problem.
+  **N/B** If jupyter file does not render at this time. Check the .py file extension
