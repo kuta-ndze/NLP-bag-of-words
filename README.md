@@ -53,3 +53,19 @@
      [1, 1, 1, 1, 1, 0, 0]
      [1, 1, 0, 1, 0, 1, 1]
    ```
+
+   - Implementing count vectorizer with parameters like stop_words, analyzer, ngram_range, min_df, max_df and convert the matrix to array for modeling
+
+4. `Model Building and Evaluation`
+   - Since this is a clustering problem , Kmeans has been used to suit the purpose.
+
+**Results**
+
+- The optimal cluster on my model is 6 clusters/ 6 centroids, this can be improve with experience
+- Word cloud analysis has help to visualize prominent patterns in deciding the cluster number
+- The cluster range between 2-4
+
+**Recommendations**
+
+- Since customer reviews are subjective, Try more bigger data set with more reviews and we could keep
+  monitoring the system performance and varying clusters as it comes with experience figuring the clusters and depending on domain problem.
