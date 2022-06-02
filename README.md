@@ -23,7 +23,7 @@
 
 **Data**
 
-- The data used is Twitter data with lots of Noise on reviews. 21047 tweets with 4 attributes username, date , tweet and mention i.e a data about vodafone which is a telecom company.
+- The data used is Twitter data with lots of Noise on reviews. 21047 tweets with 4 attributes username, date , tweet and mention i.e a data about vodafone which is a telecom company [tweets.csv](https://github.com/kuta-ndze/Natural_Language_Processing/blob/main/tweets.csv).
 
 **Methodology**
 
