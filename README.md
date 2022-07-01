@@ -17,6 +17,7 @@
 
 **Objective**
 
+- NB: Notebook might not lood check the python script 👉🏽 [Kmeans Topic Modelling](https://github.com/kuta-ndze/TopicModeling_NLP/blob/main/Kmeans%20clustering%20for%20Topic%20modeling%20on%20customer%20reviews.py)
 - In this project, we want to group customers reviews on twitter corpus based on recurring
   patterns. We should be able to get a sense of the specific topic in each cluster, what the customers are complaining about
   based on specific patterns. The twitter corpus contains a lot of noise and we will try to minimize this and create sense out of the data.
